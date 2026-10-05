@@ -1,25 +1,25 @@
-po_id,supplier,item_code,item_description,quantity,unit,order_date,promised_date,expected_date,status,work_order
-PO-4501,Kesteren Motors,MTR-075,Electric motor 7.5 kW,40,pcs,2026-08-04,2026-09-25,2026-10-16,open,WO-3101
-PO-4502,Kesteren Motors,MTR-110,Electric motor 11 kW,25,pcs,2026-08-11,2026-10-02,2026-10-23,open,WO-3104
-PO-4503,Kesteren Motors,MTR-040,Electric motor 4 kW,60,pcs,2026-08-18,2026-10-09,2026-10-09,open,WO-3110
-PO-4504,Castella Castings,CST-210,"Pump casing, cast iron DN80",120,pcs,2026-07-28,2026-09-18,2026-09-18,received,WO-3098
-PO-4505,Castella Castings,CST-215,"Pump casing, cast iron DN100",80,pcs,2026-08-06,2026-09-30,2026-10-07,partially_received,WO-3102
-PO-4506,Castella Castings,CST-330,"Impeller, bronze 220 mm",150,pcs,2026-08-20,2026-10-14,2026-10-14,open,WO-3112
-PO-4507,Pradel Seals,SEA-012,Mechanical seal 35 mm,500,pcs,2026-08-25,2026-09-29,2026-10-06,open,WO-3101
-PO-4508,Pradel Seals,SEA-018,Mechanical seal 45 mm,300,pcs,2026-09-01,2026-10-06,2026-10-06,open,WO-3104
-PO-4509,Pradel Seals,GSK-100,EPDM gasket kit,1000,kits,2026-09-03,2026-10-01,2026-09-30,received,WO-3105
-PO-4510,Lumen Bearings,BRG-6205,Ball bearing 6205-2RS,2000,pcs,2026-08-14,2026-09-22,2026-09-22,received,WO-3099
-PO-4511,Lumen Bearings,BRG-6306,Ball bearing 6306-2RS,1200,pcs,2026-08-28,2026-10-05,2026-10-26,open,WO-3110
-PO-4512,Lumen Bearings,BRG-6308,Ball bearing 6308-2RS,800,pcs,2026-09-04,2026-10-12,2026-10-12,open,WO-3112
-PO-4513,Norvik Steel,SHF-025,Stainless shaft 25 mm x 400,300,pcs,2026-08-10,2026-09-28,2026-10-12,open,WO-3102
-PO-4514,Norvik Steel,SHF-032,Stainless shaft 32 mm x 500,200,pcs,2026-08-21,2026-10-08,2026-10-08,open,WO-3110
-PO-4515,Norvik Steel,PLT-006,Steel base plate 6 mm,150,pcs,2026-09-02,2026-10-16,2026-10-13,open,WO-3115
-PO-4516,Brisa Electronics,CTL-200,Pump controller board v2,90,pcs,2026-08-07,2026-09-30,2026-11-04,open,WO-3104
-PO-4517,Brisa Electronics,SNS-PT1,Pressure sensor 0-16 bar,250,pcs,2026-08-26,2026-10-07,2026-10-07,open,WO-3112
-PO-4518,Brisa Electronics,CBL-HAR,"Wiring harness, motor",400,pcs,2026-09-07,2026-10-15,2026-10-15,open,WO-3115
-PO-4519,Duvant Fasteners,FST-M10,"Hex bolt M10x40, A4",10000,pcs,2026-09-08,2026-09-24,2026-09-24,received,WO-3101
-PO-4520,Duvant Fasteners,FST-M12,"Hex bolt M12x50, A4",6000,pcs,2026-09-10,2026-10-03,2026-10-10,partially_received,WO-3110
-PO-4521,Duvant Fasteners,FST-NUT,"Hex nut M10, A4",10000,pcs,2026-09-10,2026-10-03,2026-10-03,open,WO-3112
-PO-4522,Albera Coatings,PNT-RAL5,"Epoxy paint RAL 5015, 20 L",30,drums,2026-09-01,2026-09-26,2026-09-26,received,WO-3099
-PO-4523,Albera Coatings,PNT-PRM,"Zinc primer, 20 L",20,drums,2026-09-12,2026-10-09,2026-10-20,open,WO-3115
-PO-4524,Kesteren Motors,MTR-150,Electric motor 15 kW,12,pcs,2026-09-14,2026-10-30,2026-10-30,open,WO-3118
+po_id,supplier,item_code,item_description,quantity,unit,order_date,promised_date,expected_date,status,production_order
+PO-4501,Kesteren Motors,MTR-075,Electric motor 7.5 kW,40,pcs,2026-08-04,2026-09-25,2026-10-16,open,MO-3101
+PO-4502,Kesteren Motors,MTR-110,Electric motor 11 kW,25,pcs,2026-08-11,2026-10-02,2026-10-23,open,MO-3104
+PO-4503,Kesteren Motors,MTR-040,Electric motor 4 kW,60,pcs,2026-08-18,2026-10-09,2026-10-09,open,MO-3110
+PO-4504,Castella Castings,CST-210,"Pump casing, cast iron DN80",120,pcs,2026-07-28,2026-09-18,2026-09-18,received,MO-3098
+PO-4505,Castella Castings,CST-215,"Pump casing, cast iron DN100",80,pcs,2026-08-06,2026-09-30,2026-10-07,partially_received,MO-3102
+PO-4506,Castella Castings,CST-330,"Impeller, bronze 220 mm",150,pcs,2026-08-20,2026-10-14,2026-10-14,open,MO-3112
+PO-4507,Pradel Seals,SEA-012,Mechanical seal 35 mm,500,pcs,2026-08-25,2026-09-29,2026-10-06,open,MO-3101
+PO-4508,Pradel Seals,SEA-018,Mechanical seal 45 mm,300,pcs,2026-09-01,2026-10-06,2026-10-06,open,MO-3104
+PO-4509,Pradel Seals,GSK-100,EPDM gasket kit,1000,kits,2026-09-03,2026-10-01,2026-09-30,received,MO-3105
+PO-4510,Lumen Bearings,BRG-6205,Ball bearing 6205-2RS,2000,pcs,2026-08-14,2026-09-22,2026-09-22,received,MO-3099
+PO-4511,Lumen Bearings,BRG-6306,Ball bearing 6306-2RS,1200,pcs,2026-08-28,2026-10-05,2026-10-26,open,MO-3110
+PO-4512,Lumen Bearings,BRG-6308,Ball bearing 6308-2RS,800,pcs,2026-09-04,2026-10-12,2026-10-12,open,MO-3112
+PO-4513,Norvik Steel,SHF-025,Stainless shaft 25 mm x 400,300,pcs,2026-08-10,2026-09-28,2026-10-12,open,MO-3102
+PO-4514,Norvik Steel,SHF-032,Stainless shaft 32 mm x 500,200,pcs,2026-08-21,2026-10-08,2026-10-08,open,MO-3110
+PO-4515,Norvik Steel,PLT-006,Steel base plate 6 mm,150,pcs,2026-09-02,2026-10-16,2026-10-13,open,MO-3115
+PO-4516,Brisa Electronics,CTL-200,Pump controller board v2,90,pcs,2026-08-07,2026-09-30,2026-11-04,open,MO-3104
+PO-4517,Brisa Electronics,SNS-PT1,Pressure sensor 0-16 bar,250,pcs,2026-08-26,2026-10-07,2026-10-07,open,MO-3112
+PO-4518,Brisa Electronics,CBL-HAR,"Wiring harness, motor",400,pcs,2026-09-07,2026-10-15,2026-10-15,open,MO-3115
+PO-4519,Duvant Fasteners,FST-M10,"Hex bolt M10x40, A4",10000,pcs,2026-09-08,2026-09-24,2026-09-24,received,MO-3101
+PO-4520,Duvant Fasteners,FST-M12,"Hex bolt M12x50, A4",6000,pcs,2026-09-10,2026-10-03,2026-10-10,partially_received,MO-3110
+PO-4521,Duvant Fasteners,FST-NUT,"Hex nut M10, A4",10000,pcs,2026-09-10,2026-10-03,2026-10-03,open,MO-3112
+PO-4522,Albera Coatings,PNT-RAL5,"Epoxy paint RAL 5015, 20 L",30,drums,2026-09-01,2026-09-26,2026-09-26,received,MO-3099
+PO-4523,Albera Coatings,PNT-PRM,"Zinc primer, 20 L",20,drums,2026-09-12,2026-10-09,2026-10-20,open,MO-3115
+PO-4524,Kesteren Motors,MTR-150,Electric motor 15 kW,12,pcs,2026-09-14,2026-10-30,2026-10-30,open,MO-3118

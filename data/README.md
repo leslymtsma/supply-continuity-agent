@@ -2,23 +2,25 @@
 
 ## `purchase_orders.csv`
 
-Purchase orders (POs) sent by a fictional industrial pump manufacturer to its suppliers.
+Purchase orders (POs) sent by a fictional industrial pump manufacturer to its suppliers. Used on Days 1–2, before the full SQLite dataset.
 
 | Column | Meaning |
 |---|---|
 | `po_id` | Purchase order number |
 | `supplier` | Supplier name |
-| `item_code` | Internal part number |
-| `item_description` | What the part is |
+| `item_code` | Internal part number of the component |
+| `item_description` | What the component is |
 | `quantity`, `unit` | How much was ordered |
-| `order_date` | When we sent the order |
-| `promised_date` | Delivery date the supplier committed to |
-| `expected_date` | Latest delivery date the supplier announced (ETA) |
+| `order_date` | When the order was sent |
+| `promised_date` | Delivery date the supplier originally committed to |
+| `expected_date` | Latest delivery date known before the new event |
 | `status` | `open`, `partially_received` or `received` |
-| `work_order` | Production order (WO) that needs this part |
+| `production_order` | Manufacturing order (MO) that consumes this component |
 
 ## Business rules
 
-- A PO is **delayed** when `expected_date` is after `promised_date` **and** it is not fully `received`.
-- **Days of delay** = `expected_date` − `promised_date`.
-- A received PO is never delayed, whatever the dates say: the goods are here.
+- A supplier delay event applies to that supplier's purchase orders that are **not fully received** (`open` or `partially_received`).
+- **New expected date** = current `expected_date` + delay announced in the event.
+- **Lateness vs. commitment** = new expected date − `promised_date`.
+- A `received` PO is never affected: the goods are already here.
+- A `partially_received` PO is affected only for the quantity still to come (the remaining quantity is not in this file yet).
